@@ -5,8 +5,8 @@
 
 :root {
   /* ---- Brand colours (max 3 primaries) ---- */
-  --ft-navy: #0b1f4b;
-  --ft-navy-600: #143a8c;
+  --ft-navy: #ac1a27;
+  --ft-navy-600: #e21f27;
   --ft-navy-400: #2a5bd7;
   --ft-gold: #f6b400;
   --ft-gold-300: #ffd35c;
@@ -420,7 +420,7 @@ img {
 }
 
 /* ---------- Hero ---------- */
-.hero {
+/* .hero {
   position: relative;
   overflow: hidden;
   padding: calc(var(--nav-h) + var(--space-8)) 0 var(--section-y);
@@ -578,6 +578,29 @@ img {
   .float-card {
     padding: var(--space-2) var(--space-3);
   }
+} */
+
+.hero-banner {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-banner .hero-cta {
+  margin-top: auto;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.navbar .btn-ft-primary {
+  display: none;
+}
+
+.navbar.scrolled .btn-ft-primary {
+  display: inline-flex;
 }
 
 /* ---------- Sections ---------- */
