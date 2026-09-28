@@ -316,7 +316,7 @@ img {
 .ft-logo {
   border-radius: var(--r-sm);
   object-fit: contain;
-  background: var(--ft-white);
+  height: 64px;
   mix-blend-mode: multiply;
 }
 .brand-text {
@@ -1021,6 +1021,7 @@ img {
 }
 .ft-footer .ft-logo {
   mix-blend-mode: normal;
+  background: var(--ft-white);
 }
 .footer-note {
   max-width: 320px;
