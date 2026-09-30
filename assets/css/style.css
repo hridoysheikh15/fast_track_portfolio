@@ -603,6 +603,16 @@ img {
   display: inline-flex;
 }
 
+@media (max-width: 500px) {
+  .hero-banner {
+    min-height: 360px;
+  }
+
+  .hero-banner .hero-cta {
+    height: 300px;
+  }
+}
+
 /* ---------- Sections ---------- */
 .section {
   position: relative;
